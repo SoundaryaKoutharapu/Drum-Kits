@@ -35,5 +35,20 @@ h1
     min-width: 200px;
     font-weight: bold;
     box-shadow: 2px 3px 10px powderblue;
+    background-image: url(images/tom.png);
+    background-size: cover;
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 2px 3px rgb(21, 208, 93);
+    cursor: pointer;
 
+}
+
+.btn:hover
+{
+   color:cadetblue;
+}
+.btn:active
+{
+    background-size: 105%;
 }
